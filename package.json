@@ -1,0 +1,27 @@
+{
+  "name": "angular-flux",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Jared Lewis",
+  "homepage": "https://github.com/LewisJared/angular-flux",
+  "main": "app/app.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LewisJared/angular-flux.git"
+  },
+  "license": "Apache-2.0",
+  "bugs": "https://github.com/LewisJared/angular-flux/issues",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.26"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.5.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-shell": "^0.4.2",
+    "gulp-traceur": "^0.17.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
