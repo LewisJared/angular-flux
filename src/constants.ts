@@ -1,4 +1,4 @@
-export enum ToDoConstants {
+enum ToDoConstants {
     TODO_CREATE,
     TODO_COMPLETE,
     TODO_DESTROY,
@@ -7,3 +7,5 @@ export enum ToDoConstants {
     TODO_UNDO_COMPLETE,
     TODO_UPDATE_TEXT
 }
+
+export = ToDoConstants;
