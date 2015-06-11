@@ -10,7 +10,7 @@ gulp.task('watch', function () {
   gulp.watch('src/**/*.css', ['css']);
 });
 
-gulp.task('serve', ['watch'], function(){
+gulp.task('serve', ['compile-ts', 'html', 'css', 'watch'], function(){
   gulp.src('build')
     .pipe(webserver({
       open: true
